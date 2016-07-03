@@ -1,3 +1,6 @@
+/*
+@author:raip
+*/
 trigger AccountAddressTrigger on Account (before insert, before update) {
 
     if (Trigger.IsInsert) {
