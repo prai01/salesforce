@@ -1,3 +1,6 @@
+/*
+@author: raip
+*/
 public class AccountHandler {
     public static Account insertNewAccount(String strName){
         try{
