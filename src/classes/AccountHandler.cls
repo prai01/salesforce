@@ -2,6 +2,7 @@
 @author: raip
 Modification History:
     raip - test test
+    more comments
 */
 public class AccountHandler {
     public static Account insertNewAccount(String strName){
