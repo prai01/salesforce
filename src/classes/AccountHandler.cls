@@ -1,5 +1,7 @@
 /*
 @author: raip
+Modification History:
+
 */
 public class AccountHandler {
     public static Account insertNewAccount(String strName){
