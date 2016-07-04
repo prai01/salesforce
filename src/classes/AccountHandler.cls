@@ -7,7 +7,7 @@ Modification History:
 public class AccountHandler {
     public static Account insertNewAccount(String strName){
         try{
-        Account acct = new Account(Name=strName;
+        Account acct = new Account(Name=strName);
         insert acct;
         return acct;
         }

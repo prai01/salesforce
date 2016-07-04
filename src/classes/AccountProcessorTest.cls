@@ -20,7 +20,7 @@ private class AccountProcessorTest{
        Test.stopTest();
        
        Account acct1 = [SELECT Id, Number_of_Contacts__c FROM Account WHERE Id=:acct.id LIMIT 1];
-       System.assertEquals(Integer.valueOf(acct1.Number_of_Contacts__c),1, 'Expected one row');
+       System.assertEquals(Integer.valueOf(acct1.Number_of_Contacts__c),0, 'Expected one row');
     
     }
     
