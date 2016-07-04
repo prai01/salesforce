@@ -1,13 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>MyPkg</fullName>
+    <fullName>src</fullName>
     <types>
-        <members>myobj__c</members>
+        <members>AccountHandler</members>
+        <members>AccountManager</members>
+        <members>AccountManagerTest</members>
+        <members>AccountProcessor</members>
+        <members>AccountProcessorTest</members>
+        <members>AddPrimaryContact</members>
+        <members>AddPrimaryContactTest</members>
+        <members>AnimalLocator</members>
+        <members>AnimalLocatorMock</members>
+        <members>AnimalLocatorTest</members>
+        <members>AnimalsCallouts</members>
+        <members>AnimalsCalloutsTest</members>
+        <members>AnimalsCalloutsTest01</members>
+        <members>AnimalsHttpCalloutMock</members>
+        <members>AsyncCalculatorServices</members>
+        <members>AsyncParkService</members>
+        <members>AwesomeCalculator</members>
+        <members>AwesomeCalculatorTest</members>
+        <members>CalculatorCalloutMock</members>
+        <members>CaseManager</members>
+        <members>CaseManagerTest</members>
+        <members>ContactAndLeadSearch</members>
+        <members>ContactSearch</members>
+        <members>ContactsListController</members>
+        <members>CustomVoterDonationService</members>
+        <members>DailyLeadProcessor</members>
+        <members>DailyLeadProcessorTest</members>
+        <members>LeadProcessor</members>
+        <members>LeadProcessorTest</members>
+        <members>LightningConnectQuickstart</members>
+        <members>NewCaseListController</members>
+        <members>ParkLocator</members>
+        <members>ParkLocatorTest</members>
+        <members>ParkService</members>
+        <members>ParkServiceMock</members>
+        <members>RandomContactFactory</members>
+        <members>RemindOpptyOwners</members>
+        <members>RemindOppyOwnersTest</members>
+        <members>SMSUtils</members>
+        <members>SMSUtilsCalloutMock</members>
+        <members>SMSUtilsTest</members>
+        <members>SmsMessage</members>
+        <members>SoapVoterService</members>
+        <members>StringArrayTest</members>
+        <members>TaskUtil</members>
+        <members>TaskUtilTest</members>
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
+        <members>TestAccountDeletion</members>
+        <members>TestDataFactory</members>
+        <members>TestLightningConnectQuickstart</members>
+        <members>TestRestrictContactByName</members>
+        <members>TestVerifyDate</members>
+        <members>UpdateParentAccount</members>
+        <members>UpdateParentAccountTest</members>
+        <members>VerifyDate</members>
+        <members>calculatorServices</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountDetail</members>
+        <members>AccountEdit</members>
+        <members>AccountList</members>
+        <members>AccountSummary</members>
+        <members>ContactList</members>
+        <members>ContactView</members>
+        <members>ContactsListWithController</members>
+        <members>CreateContact</members>
+        <members>DisplayImage</members>
+        <members>DisplayUserInfo</members>
+        <members>HelloJQuery</members>
+        <members>HelloWorld</members>
+        <members>LightningConnectQuickstart</members>
+        <members>NewCaseList</members>
+        <members>OppView</members>
+        <members>ShowImage</members>
+        <members>UserStatus</members>
+        <members>iFrame</members>
+        <members>jQueryMobileResource</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AccountAddressTrigger</members>
+        <members>AccountDeletion</members>
+        <members>ClosedOpportunityTrigger</members>
+        <members>RestrictContactByName</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Account.Customer_ID__c</members>
+        <members>Account.Match_Billing_Address__c</members>
+        <members>Account.Number_of_Contacts__c</members>
+        <members>Account.Total_Employees__c</members>
+        <members>Precinct__c.Precinct_Description__c</members>
+        <members>SMS_Log__c.from__c</members>
+        <members>SMS_Log__c.msg__c</members>
+        <members>SMS_Log__c.to__c</members>
+        <members>Voter_Donation__c.Amount__c</members>
+        <members>Voter_Donation__c.Candidate_Name__c</members>
+        <members>Voter_Donation__c.Donation_Date__c</members>
+        <members>Voter_Donation__c.Voter__c</members>
+        <members>Voter__c.Contacted_2016__c</members>
+        <members>Voter__c.Last_Contact_Date__c</members>
+        <members>Voter__c.Mailing_Address__c</members>
+        <members>Voter__c.Political_Party__c</members>
+        <members>Voter__c.Precinct__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Precinct__c</members>
+        <members>SMS_Log__c</members>
+        <members>Voter_Donation__c</members>
+        <members>Voter__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>myobj__c-myobj Layout</members>
+        <members>Precinct__c-Precinct Layout</members>
+        <members>SMS_Log__c-SMS_Log Layout</members>
+        <members>Voter_Donation__c-Voter Donation Layout</members>
+        <members>Voter__c-Voter Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Precinct__c.All</members>
+        <members>Voter_Donation__c.All</members>
+        <members>Voter__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>GetAnimalResource</members>
+        <members>jQuery</members>
+        <members>jQueryMobile</members>
+        <members>vfimagetest</members>
+        <name>StaticResource</name>
     </types>
     <version>37.0</version>
 </Package>
